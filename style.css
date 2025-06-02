@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(./bgg.jpg);
+     margin: 0%;
+     height: 100vh;
+}
+.navbar{
+    background: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left{
+    
+    color: white;
+}
+.photo{
+    width: 10%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.nav-right{
+    gap: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.Main{
+    padding: 20px;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    
+}
+.line{
+    padding: 50px 0 ;
+}
+.profile{
+
+   position: absolute;
+   bottom: 120px;
+   left: 85%;
+    
+}
+.pause{
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+}
+.bi-pause-circle-fill{
+    font-size: 45px;
+}
